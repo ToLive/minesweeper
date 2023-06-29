@@ -5,8 +5,7 @@
   "scripts": {
     "dev": "vite --host",
     "build": "vite build",
-    "preview": "vite preview",
-    "test": "jest --colors"
+    "preview": "vite preview"
   },
   "author": "Sergey Grabak",
   "license": "ISC",
