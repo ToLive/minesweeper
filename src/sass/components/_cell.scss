@@ -1,0 +1,75 @@
+.cell {
+    display: block;
+    background-color: #5a9599;
+    border: 1px solid #000;
+    text-align: center;
+    user-select: none;
+
+    &.dark {
+        background-color: #203031;
+    }
+
+    &.small {
+        width: 17px;
+        height: 17px;
+        font-size: 10px;
+        line-height: 17px;
+    }
+
+    &.medium {
+        width: 30px;
+        height: 30px;
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    &.large {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+        line-height: 40px;
+    }
+}
+
+.open {
+    background-color: #b1e2d0;
+
+    &.dark {
+        background-color: rgb(57, 77, 78);
+    }
+}
+
+.fail {
+    background-color: #dd7066;
+
+    &.dark {
+        background-color: #7e322b;
+    }
+}
+
+.success {
+    background-color: #35e44c;
+
+    &.dark {
+        background-color: #136913;
+    }
+}
+
+.mine {
+    background-color: #dd7066;
+    background-image: url('/src/assets/images/bender.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    &.dark {
+        background-color: #7e322b;
+    }
+}
+
+.flagged {
+    background-image: url('/src/assets/images/fry.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

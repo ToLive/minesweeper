@@ -1,0 +1,266 @@
+.control {
+    display: flex;
+    background-color: #a0e9ab;
+    margin: auto;
+    width: 480px;
+    height: 60px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom: #be1817 solid 3px;
+
+    &.dark {
+        background-color: #1c383b;
+    }
+
+    .clock {
+        display: flex;
+        font-size: 48px;
+        margin: 4px;
+        color: #000;
+        border-radius: 4px;
+
+        & span {
+            display: block;
+            width: 2em;
+        }
+
+        .clock-img {
+            display: block;
+            width: 32px;
+            height: 32px;
+            margin-right: 4px;
+            align-self: center;
+        }
+    }
+
+    .digit-block {
+        display: flex;
+        flex-direction: column;
+        background-color: #000;
+        border-radius: 4px;
+
+        .digit {
+            font-family: monospace;
+            color: #ff0000;
+            padding: 2px 10px;
+            text-align: center;
+            font-size: 20px;
+            text-shadow: 0px 0px 2px #ff0000;
+        }
+
+        .char-text {
+            font-size: 14px;
+            color: #66bbc6;
+            text-align: center;
+            width: 100%;
+        }
+    }
+}
+
+.status {
+    display: flex;
+    background-color: #a0e9ab;
+    margin: auto;
+    width: 480px;
+    height: 60px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-top: #be1817 solid 3px;
+
+    &.dark {
+        background-color: #1c383b;
+    }
+
+    .status-text {
+        font-size: 18px;
+        text-align: center;
+        width: 100%;
+
+        &.dark {
+            background-color: #1c383b;
+            color: darkorange;
+        }
+    }
+}
+
+.buttons {
+    display: flex;
+    margin: auto;
+    max-width: 600px;
+    flex-wrap: wrap;
+    height: 80px;
+
+    .new-game {
+        margin: auto;
+        border: 1px solid;
+        border-radius: 4px;
+        background-color: #66bbc6;
+        color: #fff;
+        padding: 10px 20px;
+        font-size: 0.7rem;
+        text-transform: uppercase;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+            background-color: #1a5354;
+            cursor: pointer;
+        }
+
+        &:focus {
+            outline: none;
+        }
+
+        &.dark {
+            background-color: #1c383b;
+
+            &:hover {
+                background-color: #66bbc6;
+            }
+        }
+    }
+
+    .highscores {
+        margin: auto;
+        border: 1px solid;
+        border-radius: 4px;
+        background-color: #66bbc6;
+        color: #fff;
+        padding: 10px 20px;
+        font-size: 0.7rem;
+        text-transform: uppercase;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+            background-color: #1a5354;
+            cursor: pointer;
+        }
+
+        &:focus {
+            outline: none;
+        }
+
+        &.dark {
+            background-color: #1c383b;
+
+            &:hover {
+                background-color: #66bbc6;
+            }
+        }
+    }
+
+    .save-game {
+        margin: auto;
+        border: 1px solid;
+        border-radius: 4px;
+        background-color: #66bbc6;
+        color: #fff;
+        padding: 10px 10px;
+        font-size: 0.7rem;
+        text-transform: uppercase;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+            background-color: #1a5354;
+            cursor: pointer;
+        }
+
+        &:focus {
+            outline: none;
+        }
+
+        &.dark {
+            background-color: #1c383b;
+
+            &:hover {
+                background-color: #66bbc6;
+            }
+        }
+    }
+
+    .load-game {
+        margin: auto;
+        border: 1px solid;
+        border-radius: 4px;
+        background-color: #66bbc6;
+        color: #fff;
+        padding: 10px 10px;
+        font-size: 0.7rem;
+        text-transform: uppercase;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+            background-color: #1a5354;
+            cursor: pointer;
+        }
+
+        &:focus {
+            outline: none;
+        }
+
+        &.dark {
+            background-color: #1c383b;
+
+            &:hover {
+                background-color: #66bbc6;
+            }
+        }
+    }
+
+    .music-switch {
+        margin: auto;
+        border: 1px solid;
+        border-radius: 4px;
+        background-color: #66bbc6;
+        color: #fff;
+        padding: 10px 10px;
+        font-size: 0.7rem;
+        text-transform: uppercase;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+            background-color: #1a5354;
+            cursor: pointer;
+        }
+
+        &:focus {
+            outline: none;
+        }
+
+        &.dark {
+            background-color: #1c383b;
+
+            &:hover {
+                background-color: #66bbc6;
+            }
+        }
+    }
+
+    .sfx-switch {
+        margin: auto;
+        border: 1px solid;
+        border-radius: 4px;
+        background-color: #66bbc6;
+        color: #fff;
+        padding: 10px 10px;
+        font-size: 0.7rem;
+        text-transform: uppercase;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+            background-color: #1a5354;
+            cursor: pointer;
+        }
+
+        &:focus {
+            outline: none;
+        }
+
+        &.dark {
+            background-color: #1c383b;
+
+            &:hover {
+                background-color: #66bbc6;
+            }
+        }
+    }
+}

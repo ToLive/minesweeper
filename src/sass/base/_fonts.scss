@@ -1,0 +1,11 @@
+$baseDir: '/src/assets/fonts';
+
+@font-face {
+    font-family: "Futurama";
+    src: url($baseDir + '/futurama.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: "Futurama-Title";
+    src: url($baseDir + '/futurama-title.ttf');
+}
